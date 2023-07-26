@@ -8,9 +8,6 @@ for i in range(1,N+1):
         string+=str(Sr)+" "
         Sr+=1
     print(left_space+string)
-        
-    
-    
    
         
         
