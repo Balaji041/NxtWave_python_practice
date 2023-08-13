@@ -9,8 +9,10 @@ for i in range(M,N+1):
         sum=sum+int(j)**l
     if sum==i:
         string=string+str(i)+" "
-print(string)
-
+if len(string)==0:
+    print("-1")
+else:
+    print(string)
 """
 input:
 150
